@@ -1,0 +1,8 @@
+{
+    "server": "127.0.0.1",
+    "port": "1883",
+    "topic": "homeassistant",
+    "devicename": "voltronic",
+    "username": "homeassistant",
+    "password": "iw3gcb"
+}

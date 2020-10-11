@@ -1,0 +1,9 @@
+[Unit]
+Description=Inverter poller
+
+[Service]
+ExecStart=/opt/inverter-mqtt/entrypoint.sh
+WorkingDirectory=/opt/inverter-mqtt
+
+[Install]
+WantedBy=multi-user.target
